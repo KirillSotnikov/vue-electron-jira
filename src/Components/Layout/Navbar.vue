@@ -2,7 +2,7 @@
     <v-app-bar hide-on-scroll app>
       <v-app-bar-nav-icon @click="toggleDrawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Jira №2</v-toolbar-title>
+      <v-toolbar-title>Soul Music</v-toolbar-title>
 
       <v-spacer></v-spacer>
 

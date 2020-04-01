@@ -25,7 +25,7 @@ function createWindow () {
     webPreferences: {
       nodeIntegration: true
     }
-  });
+  })
   
   win.maximize();
   // win.setMenuBarVisibility(false)

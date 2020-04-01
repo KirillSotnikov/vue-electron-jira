@@ -23,6 +23,8 @@
           v-for="item in items"
           :key="item.title"
           link
+          :to="item.href"
+          @click.native="toggleDrawer"
         >
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
@@ -45,6 +47,9 @@ export default {
         drawerShow: {
             type: Boolean,
             default: false
+        },
+        toggleDrawer: {
+          type: Function
         }
     }
 }
